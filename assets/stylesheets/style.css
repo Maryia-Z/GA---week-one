@@ -1,0 +1,54 @@
+/*
+	This is a comment. You can use them to leave messages
+	for yourself or others that won't affect the styles
+	written in the file.
+*/
+
+/*
+	This is the css file. It is used to define styles for an
+	HTML (in this case) document.
+
+	The reason the styles written here apply to the index.html
+	file is that in the <head> of that document the following
+	link tag connects the two:
+
+		<link rel="stylesheet" type="text/css" href="assets/stylesheets/style.css">
+
+
+
+	The format for CSS is as follows:
+
+	selector{
+		property: value;
+	}
+*/
+
+/*
+	For example, this, which makes the background of the page
+	(the body element is the root) magenta. Uncomment it to see.
+*/
+
+/*
+body{
+	background: #FF00FF;
+}
+*/
+
+html {
+	padding-left: 1.5em;
+}
+img {
+	width: 100%;
+}
+body {
+	width: 50%;
+}
+h1{
+	font-size: 45.5px;
+}
+p {
+	font-size: 23.5px
+}
+a {
+	color: #F94E65;
+}
